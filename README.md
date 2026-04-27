@@ -42,7 +42,7 @@ football-scouting-dashboard/
 
 # Live Demo
 
-👉 Streamlit App
+https://football-scouting-dashboard-viktor-gy-keres-4onag5bepwkjhygosy.streamlit.app/
 
 # Dashboard Preview
 
