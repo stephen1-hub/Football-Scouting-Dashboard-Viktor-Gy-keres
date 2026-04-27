@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 from PIL import Image
+import os
 
 # -----------------------------
 # PAGE CONFIG (MUST BE FIRST)
@@ -9,7 +10,7 @@ from PIL import Image
 st.set_page_config(layout="wide")
 
 # -----------------------------
-# LOAD IMAGE
+# SAFE IMAGE LOADING (FIXED)
 # -----------------------------
 image_path = "gyokeres.jpg.webp"
 
@@ -23,14 +24,16 @@ def load_image(path):
 
 image = load_image(image_path)
 
-
 # -----------------------------
 # PLAYER HEADER (CLEAN FIFA STYLE)
 # -----------------------------
 col1, col2 = st.columns([1, 3])
 
 with col1:
-    st.image(image, width=180)
+    if image:
+        st.image(image, width=180)
+    else:
+        st.warning("Image not found (check GitHub upload)")
 
 with col2:
     st.title("🇸🇪 Viktor Gyökeres")
