@@ -1,13 +1,13 @@
 # Football-Scouting-Dashboard-Viktor-Gy-keres
 
-📊 Overview
+# Overview
 
 This project is a football analytics scouting dashboard built with Python and Streamlit.
 It analyzes the attacking performance of Viktor Gyökeres using xG-based metrics, shot profiling, and role-based performance breakdowns.
 
 The goal is to simulate a professional club scouting interface (Opta-style) for performance evaluation.
 
-🎯 Key Features
+# Key Features
 📈 Player performance overview (Goals, xG, xA, xG/90)
 ⚔️ Role-based analysis (Starter vs Substitute impact)
 🎯 Shot zone distribution (Box, Six-yard box, Outside box)
@@ -15,22 +15,22 @@ The goal is to simulate a professional club scouting interface (Opta-style) for 
 ⚽ Situation analysis (Open play, Penalties, Set pieces)
 🧠 Scouting report summary (strengths & weaknesses)
 🎮 FIFA-style player card UI (dark themed)
-🧠 Key Insights
+# Key Insights
 High xG contribution from penalty box areas
 Strong finishing efficiency vs expected goals
 More effective per 90 minutes as a substitute
 Limited creative output (low xA involvement)
 Profile fits a box-dominant striker archetype
-🛠️ Tech Stack
+# Tech Stack
 Python 🐍
 Streamlit 🌐
 Pandas 📊
 Matplotlib 📈
 PIL (Image processing) 🖼️
-📂 Project Structure
+# Project Structure
 football-scouting-dashboard/
 │
-├── app.py
+├── app8.py
 ├── requirements.txt
 ├── player-groups.csv
 ├── player-groups (1).csv
@@ -39,11 +39,11 @@ football-scouting-dashboard/
 ├── player-groups (4).csv
 ├── gyokeres.jpg.webp
 └── README.md
-🚀 Live Demo
+# Live Demo
 
 👉 Streamlit App
 
-📸 Dashboard Preview
+# Dashboard Preview
 
 (Add screenshots here after deployment)
 
@@ -52,7 +52,7 @@ Goals vs xG comparison
 Shot zone distribution
 Shot type efficiency
 Situation-based xG breakdown
-🧠 Scouting Summary
+# Scouting Summary
 
 Viktor Gyökeres is a high-efficiency penalty box striker who thrives on structured attacking systems.
 He generates consistent xG through close-range finishing opportunities and demonstrates strong physical and positional attributes.
@@ -62,7 +62,7 @@ However, his profile shows:
 Low creative involvement (xA)
 Limited long-range threat
 Minimal playmaking contribution
-👨‍💻 Author
+# Author
 
 Stephen Yaw Ayamah
 Football Data Analytics | Python | Streamlit | Sports Intelligence
