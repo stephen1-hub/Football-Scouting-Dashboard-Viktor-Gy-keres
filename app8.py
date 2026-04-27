@@ -11,7 +11,18 @@ st.set_page_config(layout="wide")
 # -----------------------------
 # LOAD IMAGE
 # -----------------------------
-image = Image.open(r"C:\Users\Anthony Bannerman\Desktop\gyokeres.jpg.webp")
+image_path = "gyokeres.jpg.webp"
+
+def load_image(path):
+    try:
+        if os.path.exists(path):
+            return Image.open(path)
+        return None
+    except:
+        return None
+
+image = load_image(image_path)
+
 
 # -----------------------------
 # PLAYER HEADER (CLEAN FIFA STYLE)
