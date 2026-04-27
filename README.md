@@ -31,14 +31,15 @@ PIL (Image processing) 🖼️
 football-scouting-dashboard/
 │
 ├── app8.py
-├── requirements.txt
+├── gyokeres.jpg.webp
 ├── player-groups.csv
 ├── player-groups (1).csv
 ├── player-groups (2).csv
 ├── player-groups (3).csv
 ├── player-groups (4).csv
-├── gyokeres.jpg.webp
-└── README.md
+├── requirements.txt
+└── .streamlit/config.toml
+
 # Live Demo
 
 👉 Streamlit App
